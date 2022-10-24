@@ -1,0 +1,491 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  display: flex;
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 64px;
+  width: 100vw;
+}
+
+.poppins {
+  font-family: "Poppins";
+}
+
+.noDecoration {
+  color: #394149;
+  text-decoration: none;
+}
+
+.headerFont {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #394149;
+}
+
+.headerContainer {
+  display: flex;
+  width: 100vw;
+  margin-inline: 140px;
+  height: 100%;
+}
+
+.headerLogo {
+  display: flex;
+  height: 100%;
+  width: 50%;
+}
+
+.headerNavigation {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  grid-gap: 10px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 0;
+  height: 84px;
+  width: 100vw;
+  background-color: rgb(194, 170, 170);
+}
+
+.homeContent {
+  display: flex;
+  width: 100vw;
+  height: 70vh;
+  background-color: #dceaf5;
+}
+
+.homeContentContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+  align-items: flex-end;
+  grid-gap: 50px;
+}
+
+.homeInformation {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  grid-gap: 30px;
+}
+
+.serviceBtn {
+  width: 150px;
+  height: 55px;
+  border-radius: 27px;
+  border-width: 0;
+  background-color: #f58a07;
+  color: white;
+}
+
+.allServiceBtn {
+  background-color: #dceaf5;
+  border-width: 0;
+}
+
+.tableContainer {
+  display: flex;
+  width: 50%;
+  height: 70%;
+  align-self: center;
+  background-position: center;
+  background-image: url("./images/table.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.profileInformationText {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: #394149;
+  opacity: 0.87;
+}
+
+.manContainer {
+  display: flex;
+  align-items: flex-end;
+  width: 50%;
+  height: 100%;
+  background-position: center;
+  background-image: url("./images/Man.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weHelpSection {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+.weHelpSectionLayout {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+}
+
+.overViewContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  grid-gap: 40px;
+}
+.whiteBg {
+  background-color: white;
+}
+.softwareSolutionSection {
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  background-color: #dceaf5;
+}
+
+.sssContainer {
+  display: flex;
+  margin-inline: 140px;
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.card {
+  width: 250px;
+  height: 192px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.energySection {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+}
+
+.energySectionContainer {
+  display: flex;
+  width: 100vw;
+  grid-gap: 20px;
+  margin-inline: 140px;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.chocolate {
+  width: 100%;
+  height: 85%;
+  background-image: url("./images/huuhen.png");
+  border-radius: 15px;
+}
+
+.awards {
+  margin-top: 10px;
+  width: 100%;
+  height: 35%;
+  grid-gap: 20px;
+}
+
+.award {
+  width: 50%;
+  height: 100%;
+  grid-gap: 20px;
+}
+
+.seeJobSection {
+  display: flex;
+  width: 100vw;
+  height: 50vh;
+}
+
+.sjsContainer {
+  background-image: url("./images/coffee.png");
+  background-size: cover;
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+
+.sjsContainer2 {
+  width: 50%;
+  height: 100%;
+  background-color: #f58a07;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+}
+
+.blogSection {
+  display: flex;
+  margin-top: 20px;
+  width: 100vw;
+  height: 70vh;
+  background-color: #dceaf5;
+}
+.blogSectionContainer {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+  margin-top: 40px;
+}
+
+.title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  text-transform: capitalize;
+  color: #0d1317;
+}
+
+.footer {
+  display: flex;
+  position: static;
+  bottom: 0;
+  width: 100vw;
+  height: 50vh;
+  background-color: #063255;
+}
+
+.footerContainer {
+  width: 100%;
+  height: 90%;
+  margin-top: 40px;
+  margin-inline: 140px;
+  justify-content: space-evenly;
+}
+
+.collection {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+}
+
+.collectionContainer {
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 33px;
+  grid-row-gap: 14px;
+}
+
+.colContainer {
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+}
+.collectionTextContainer {
+  width: 100%;
+  height: 100%;
+  margin-inline: 10px;
+  justify-content: center;
+  grid-gap: 30px;
+}
+
+.collectionTitle {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+}
+
+.collectionSubText {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+}
+
+.positions {
+  margin-top: 100px;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.positionsContainer {
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+}
+
+.positionsGrid {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+}
+
+.positionCard {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: space-between;
+  width: auto;
+  height: 150px;
+  background: rgba(193, 228, 255, 0.3);
+  border-radius: 20px;
+}
+
+.applyBtn {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 106.5%;
+  color: #f58a07;
+  cursor: pointer;
+}
+.positionTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+}
+
+.positionMajor {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #394149;
+  opacity: 0.6;
+}
+
+.allPost {
+  margin-top: 100px;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+
+.allPostContainer {
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+}
+
+.postContainer {
+  width: 400px;
+  height: auto;
+  border-radius: 20px;
+  background: #edf7ff;
+  display: flex;
+  flex-direction: column;
+}
+
+.postTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.03em;
+  color: #0d1317;
+}
+
+.setting {
+  width: 100vw;
+  height: 100vh;
+}
+
+.settingContainer {
+  width: 400px;
+  height: 400px;
+  background-color: #f58a07;
+  border-radius: 30px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: white;
+}
+
+.dream {
+  margin-top: 100px;
+  display: flex;
+  width: 100vw;
+  height: auto;
+}
+.dreamContainer{
+  width: 100%;
+  height: 100%;
+  margin-inline: 140px;
+}
